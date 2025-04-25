@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <table border="0" cellpadding="10">
+        <tr>
+            <th><a href="index.html"><img src="img/logoifrs.png" alt="" height="80" width="180"></a></th>
+            <th><a href="tabela_nutricional.html"><Font size="5">Tabela Nutricional</Font></a></th>
+            <th><a href="cadastro.html"><Font size="5">Cadastre-se</Font></a></th>
+        </tr>
+    </table>
+
+    <h1>Cadastre-se na Fruteira IFRS</h1>
+
+    <form method="get" action="https://ifrs.edu.br/provaads1.php">
+        
+        <label for="nome">Nome completo*:</label><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required size="50"><br>
+        
+        <br>
+
+        <label for="nascimento">Data Nascimento*:</label><br>
+        <input type="date" name="nascimento" id="nascimento" required><br>
+        
+        <br>
+
+        <label for="email">Email*:</label><br>
+        <input type="email" name="email" id="email" placeholder="Digite o email" required size="40"><br>
+        
+        <br>
+
+        <label for="idade">Idade*:</label><br>
+        <input size="25" type="number" name="idade" id="idade" placeholder="Digite sua idade" required min="0" max="110" ><br>
+        
+        <br>
+
+        <label>Como nos conheceu?*:</label>
+
+        <input type="radio" name="comoConheceu" id="tv" value="tv" required>
+        <label for="tv">Tv</label>
+        
+        <input type="radio" name="comoConheceu" id="internet" value="internet" required>
+        <label for="internet">Internet</label>
+        
+        <input type="radio" name="comoConheceu" id="jornal" value="jornal" required>
+        <label for="jornal">Jornal</label>
+        
+        <input type="radio" name="comoConheceu" id="radio" value="radio" required>
+        <label for="radio">Rádio</label>
+
+        <br>
+        
+        <label for="frutaPreferida">Fruta Preferida</label><br>
+        <select name="frutaPreferida" id="frutaPreferida">
+            <option value="maca">Maça</option>
+            <option value="manga">Manga</option>
+            <option value="outra">Outra</option>
+        </select>
+
+        <br><br><br><br>
+        
+        <label for="novidades">Receber novidades por email</label>
+        <input type="checkbox" name="novidades" id="novidades" value="sim">
+        
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+</body>
+
+</html>

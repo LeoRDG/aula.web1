@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Pesquisa Google</h1>
+    <form action="https://google.com/search">
+
+        <label for="pesquisa">Texto a pesquisar</label>
+        <input type="text" name="q" if="pesquisa">
+        <fieldset>
+            <legend>Tipo de Pesquisa</legend>
+
+            <input type="radio" checked name="udm" value="1" id="todos">
+            <label for="todos">Todos</label><br>
+
+            <input type="radio" name="udm" value="2" id="imagens">
+            <label for="imagens">Imagens</label><br>
+
+            <input type="radio" name="udm" value="12" id="noticias">
+            <label for="noticias">Noticias</label><br>
+
+            <input type="radio" name="udm" value="15" id="atracoes">
+            <label for="atracoes">Atrações</label><br>
+
+            <input type="radio" name="udm" value="18" id="forums">
+            <label for="forums">Forums</label><br>
+
+            <input type="radio" name="udm" value="28" id="compras">
+            <label for="compras">Compras</label><br>
+
+            <input type="radio" name="udm" value="36" id="livros">
+            <label for="livros">Livros</label><br>
+
+            <input type="radio" name="udm" value="37" id="produtos">
+            <label for="produtos">Produtos</label><br>
+        </fieldset>
+
+        <input type="submit" value="Pesquisar">
+
+    </form>
+<br>
+
+    <fieldset>
+        <legend><h1>Formulários HTML</h1></legend>
+        <form action="https://ifrs.edu.br/cadastro.php" method="get">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+
+                <label for="nome">Informe seu nome</label><br>
+                <input id='nome' type="text" name="n" placeholder="Informe seu nome" autofocus><br>
+
+                <br><label for="end">Informe o Endereço</label><br>
+                <input type="text" id="end" name="endereco"><br>
+
+                <br><label for="senha">Informe a senha</label><br>
+                <input type="password" id="senha" name="senha"><br>
+
+                <br><label for="idade">Informe sua idade</label><br>
+                <input type="number" name="idade" maxlength=2 size=2 id="idade" min="0" max="150"><br>
+
+                <br><label for="nascimento">Informe seu nascimento</label><br>
+                <input type="datetime-local" name="nascimento" id="nascimento"><br>
+            </fieldset>
+
+            <br><br>
+            <fieldset>
+                <legend>Selecione o turno</legend>
+
+                <input type="radio" name="turno" value="M" id="manha">
+                <label for="manha">Manhã</label><br>
+
+                <input type="radio" name="turno" value="T" id="tarde">
+                <label for="tarde">Tarde</label><br>
+
+                <input type="radio" name="turno" value="N" id="noite" checked>
+                <label for="noite">Noite</label><br>
+
+            </fieldset>
+
+
+            <input type="checkbox" name="msg" id="msg" value="S" checked>
+            <label for="msg">Desejo receber mensagens</label><br>
+
+            <br><label for="estado">Estado</label><br>
+            <select name="estado" id="estado">
+                <option value="Selecione un estado:" selected disabled></option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select><br>
+
+
+            <br><label for="obs">Observação</label><br>
+            <textarea name="obs" id="obs" rows="5" cols="50"></textarea><br>
+
+            <br><label for="email">Email</label>
+            <input type="email" name="email" id="email" required><br>
+
+            <br><label for="foto">Email</label>
+            <input type="file" name="foto" id="foto" required>
+
+            <br><br>
+
+            <br><input type="reset" id="limpar" value="Limpar" name="limpar">
+            <input type="submit" id="enviar" value="Enviar" name="salvar">
+
+
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
