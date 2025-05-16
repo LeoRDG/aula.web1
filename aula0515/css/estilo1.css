@@ -1,20 +1,51 @@
 h1{
-    color: 	red;
+    margin: auto;
+    width: fit-content;
+    color: 	white;
+    text-align: center;
     background-color: black;
+    /* margin-left: 20px; */
+    padding: 0 50px 0 50px;
+    border: 10px red solid;
+    border-width: 10px 0 10px 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 00px 200px 0px blue;
 }
 
-p{
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border: 20px solid red;
+    box-sizing: border-box;
+}
+
+#box2{
+    width: 200px;
+    border: 40px solid green;
+    height: 200px;
+    background-color: coral;
+    box-sizing: border-box;
+}
+
+p{    
     color: white;
     background-color: blueviolet;
+    display: inline;
 }
 
-#prova{
-    color: red;
-    background-color: black;
-    padding: 10px;
+#logo{
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px
 }
 
-p{
-    color: white;
-    background-color: coral;
+li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
