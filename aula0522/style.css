@@ -1,0 +1,46 @@
+.menu li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    border: 2px solid black;
+    /* padding: 10px; */
+}
+
+
+.menu {
+    padding-left: 0;
+}
+
+.login label,.login input{
+    display: block;
+    padding: 1px;
+}
+
+.login {
+    padding: 20px;
+}
+
+#login {
+    background-color: #ddd;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #ddd;
+    margin: 10px;
+    border-radius: 12px;
+    border: 2px solid coral;
+}
