@@ -1,0 +1,101 @@
+label, input {
+    display: block;
+    margin: 10px;
+    width: 90%;
+}
+
+.alt{
+    color: red;
+    font-size: 122px;
+    font-style:italic;
+}
+
+input{
+    height: 30px;
+    padding-left: 40px;
+    outline:none;
+    border: none;
+    border-radius: 20px;
+}
+input:focus{
+    outline: none;
+    border: 5px solid wheat;
+}
+
+div p{
+    background-color: red;
+}
+
+div p:hover{
+    background-color: green;
+    border:20px solid pink;
+    font-style: italic;
+}
+
+tbody tr:nth-child(even){
+    background-color: aqua;
+}
+
+tbody tr:nth-child(odd){
+    background-color: darkgreen;
+}
+
+thead {
+    background-color: lightsalmon;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a:visited {
+    background-color: blue;
+    color: red;
+}
+
+input:valid{
+    outline: none;
+    border: 2px solid greenyellow;
+}
+#nome{
+    background-image: url("https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png");
+    background-position: 0px 0px;
+    background-size: 2em;
+    background-repeat:no-repeat;
+}
+
+input:invalid{
+    outline: none;
+    border: 2px solid red;
+}
+
+input:focus{
+    background-color: rebeccapurple;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+}
+input[type="reset"] {
+    background-color: red;
+}
+input[type="submit"]:hover {
+    background-color: white;
+}
+input[type="reset"]:hover {
+    background-color: white;
+}
+
+table, td, th{
+    border-bottom: 2px solid red;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    width: 200%;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+#table{
+    overflow-x: auto;
+}
