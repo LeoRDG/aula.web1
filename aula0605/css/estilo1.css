@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://files.passeidireto.com/b6a7b7a1-3402-4301-932b-dd4b0f968dd4/b6a7b7a1-3402-4301-932b-dd4b0f968dd4.jpeg");
+    background-color: hsl(99, 100%, 77%);
+    background: #FF4E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+:root{
+    --blue: #1e90ff;
+    --white: #f1f1f1;
+}
+
+html{
+    font-size: 22px;
+}
+
+.gradient{
+    background: linear-gradient(to bottom, transparent, #1F4E50);
+    width: fit-content;
+    background-clip: text;
+    color: transparent;
+}
+
+html, body{
+    height: 100vh;
+}
+
+#texto1{
+    font-size: 20px;
+}
+
+#linha1{
+    font-size: 0.50rem;
+}
+
+h1{
+    color: var(--blue);
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
