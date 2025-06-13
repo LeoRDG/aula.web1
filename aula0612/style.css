@@ -1,0 +1,25 @@
+body{
+    /* background-color: lightblue; */
+}
+
+.cor{
+    border-color: red !important;
+}
+
+@media screen and (min-width: 400px){
+    body{
+        /* background-color: blueviolet; */
+    };
+}
+
+@media screen and (min-width:800px){
+    body{
+        /* background-color: aqua; */
+    }
+}
+
+@media print{
+    body{
+        /* background-color: red; */
+    }
+}
